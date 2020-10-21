@@ -4,9 +4,11 @@
         <title></title>
         <meta charset="utf-8">
         <style>
-            .whole {margin:0 auto; width:800px; border:2px dashed black;}
-            ul li { display: inline-block; width:50px; height:10; text-align: center; margin:0 auto; padding:10px;
-            opacity: 0.2; background-color: salmon;}
+            .whole {margin:0 auto; padding:0;  border:3px dashed black;}
+            .menu {display: flex;  align-items:center; max-width:; margin:0 auto;}
+            .menu > li { width: 50px; height:30px; text-align:center; 
+            padding:0 30px; opacity: 0.5; background-color: salmon; color:white; list-style: none; }
+            
             .content { background-image:url("mori.JPG"); height: 800px;}
             
            
@@ -16,7 +18,7 @@
     </head>
     <body>
         <div class="whole">
-            <ul>
+            <ul class="menu" >
                 <li>food</li>
                 <li>animal</li>
                 <li>people</li>
