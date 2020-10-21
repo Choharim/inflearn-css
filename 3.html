@@ -4,44 +4,54 @@
         <title></title>
         <meta charset="utf-8">
         <style>
-            .whole {margin:0 auto; padding:0;  border:3px dashed black;}
-            .menu {display: flex;  align-items:center; max-width:; margin:0 auto;}
-            .menu > li { width: 50px; height:30px; text-align:center; 
-            padding:0 30px; opacity: 0.5; background-color: salmon; color:white; list-style: none; }
             
-            .content { background-image:url("mori.JPG"); height: 800px;}
-            
-           
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu {
+    display:  flex;
+    align-items: center;
+    color: white;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: pink;
+}
+.menu > li {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+.whole {
+
+}
+
+.content { background-image:url("mori.JPG"); height: 800px;}
 
 
-        </style>
-    </head>
-    <body>
-        <div class="whole">
+
+</style>
+</head>
+<body>
+    <div class="whole">
+
+    <header>
+        <nav>
             <ul class="menu" >
                 <li>food</li>
                 <li>animal</li>
                 <li>people</li>
             </ul>
-            
-            <div class="content">
-                <ol>
-                    <li>자고</li>
-                    <li>먹고</li>
-                    <li>싸고</li>
-                    <li>쳐다보고</li>
-                    <li>또먹고</li>
-                    <li>또자고</li>
-                    <li>짖고</li>
-                    <li>또자고</li>
-                </ol>
-             
-            </div>
-
-               
-            
+        </nav>
+    </header>
+        <div class="content">
         </div>
+    </div>
 
 
-    </body>
+</body>
 </html>
