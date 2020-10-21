@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <title>Menu</title>
         <style>
-            h1 { width: 290px; margin-left: auto; margin-right: auto; text-align:center; border:4px dashed black; }
-            div { width: 290px; margin-left: auto; margin-right: auto; text-align: center;}
+            h1 { width: 290px; margin: auto; text-align:center; border:4px dashed black; }
+            div { width: 290px; margin: 0 auto; text-align: center;}
             .ko { border: 3px solid green; background-color: gold;}
             .chi { border: 3px solid green; background-color: coral;}
             
@@ -13,6 +13,11 @@
            .child {color:green; font-weight: bold;}
 
            li {color:black; font-weight: normal;}
+           strong {color:red;}
+            h3:hover {font-style: italic; color:blue;}
+           input[type]{color:red;}
+           input:hover{border:2px solid pink;}
+          
 
 
 
@@ -20,12 +25,13 @@
     </head>
 
     <body>
+    
 
     <h1>Menu</h1>
     <div class="ko"><h2>한식</h2>
         <div class="adult">어른
         <ul>
-            <li>차돌 된장 찌게 한상   ---9000원</li> 
+            <li><strong>new</strong>차돌 된장 찌게 한상   ---9000원</li> 
             <li>김치 찌게 한상   ---8000원</li> 
             <li>부대 찌게 한상   ---7000원</li> 
 
@@ -34,7 +40,7 @@
         <div class="child">아이
         <ul>
             <li>돈까스 정식   ---6500원</li> 
-            <li>떡볶이 튀김 세트   ---5000원</li> 
+            <li> <strong>Best</strong> 떡볶이 튀김 세트   ---5000원</li> 
             <li>주먹밥 세트   ---4000원</li> 
         </ul>
         </div>
@@ -45,6 +51,18 @@
             <li>짬뽕   ---6500원</li> 
             <li>탕수육   ---9000원</li> 
         </ul>
+    </div>
+
+    <div>
+        <h3>
+            찾아와주셔서 감사합니다.
+
+        </h3>
+        <h3>
+            다음에도 뵙겠습니다.
+
+        </h3>
+        이름:<input type="text" name="uname">
     </div>
 
     </body>
