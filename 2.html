@@ -25,6 +25,8 @@
             ul li {list-style: none; display: inline-block; padding: 0 40px; font-weight: bold; font-size: 20px;}
             hr {background-color: palevioletred;}
             p {padding: 5px;}
+            p::first-letter {font-weight:bold; color:red;}
+            p::first-line {color:peru;}
             
             
             a::after {content:'-' attr(href);}
@@ -57,7 +59,9 @@
                 </ul>
                 <hr>
                 <p>
-                   안녕하세요 감사해요 잘 있어요 다시만나요~~ 
+                   안녕하세요 <br>
+                   감사해요 잘 있어요 <br>
+                   다시만나요~~ 
                 </p>
 
             </div>
